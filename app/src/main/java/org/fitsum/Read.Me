@@ -1,0 +1,57 @@
+git init
+git remote add origin git@github.com:fitnesssumm/android.git
+
+git add .
+git commit –m “ 어쩌구 commit”
+git push origin HEAD:main
+
+git pull origin main
+
+--allow-unrelated-histories
+
+@@ git push origin HEAD:main --force   //강제 푸쉬
+@@ git pull origin main --allow-unrelated-histories
+@@ git stash                            // 풀하기전에 커밋하라고 할때 무시하게 함
+--------------------------------------------
+@@@@@gmail @@@@@ds
+fitssum11@gmail.com
+qwer1234!!
+
+
+@@@ posenet 부분 코드 - 대부분 PosenetAcitivty에 있음.
+246번줄
+
+-----------------------------------------------
+@@@@@ 작업 중간에 남은 부분
+
+지금 해야하는것
+-> 포즈넷액티비티에서 운동 갯수 보내기, (서버에서 확인해야함)
+-> 퀘스트 작업하고 코인 갯수 증가시키는 작업 , 아이템 구매시 코인 차감
+
+
+First_login - X
+First_register - X
+
+fragment_main2 - 일일 퀘스트는 리스트로 만듬, 주간퀘스트랑 서버랑 어떻게 연결할지 생각해봐야함.
+
+--------------------------------------------
+@@@이미지 번호
+남자 1 ~ 9
+여자 10 ~ 18
+
+남자 기본 1         상체->2       하체 -> 3
+남자 운동복 4        상체 -> 5     하체 ->6
+남자 추리닝 7        상체 -> 8     하체 -> 9
+
+여자 기본 10         상체->11       하체 -> 12
+여자 운동복 13        상체 -> 14     하체 ->15
+여자 추리닝 16        상체 -> 17     하체 -> 18
+fdds
+
+-------------------------------------------------
+- 출석 뱃지  school_badge           → 일주일 연속 출석
+- 아령 뱃지  dumbell_badge           → 첫 운동 마치기
+- 첫구매      shopping_badge        → 첫 구매
+- 복장 모두 구매 뱃지    rich_badge     → 복장 변경 30회이상
+- 게시판뱃지      board_badge        → 게시판 글 작성 20회이상
+- 하루하루        quest_badge        → 퀘스트 일주일 연속 완료

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makeramen.roundedimageview.RoundedImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageSlide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:paddingTop="50sp"
+    android:paddingBottom="50sp"
+    android:paddingStart="30sp"
+    android:paddingEnd="30sp"
+    app:riv_corner_radius="12dp">
+
+    <!-- 초기화면 사진 여백 설정하는 곳-->
+
+</com.makeramen.roundedimageview.RoundedImageView>

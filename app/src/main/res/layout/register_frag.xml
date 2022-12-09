@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical">
+
+    <!-- 가로바 -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        tools:ignore="MissingConstraints">
+
+        <View
+            android:layout_width="170dp"
+            android:layout_height="7dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="115dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#636363" />
+    </LinearLayout>
+
+    <!-- 회원가입 Text -->
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+    </FrameLayout>
+
+    <!-- 버튼 구성 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <!-- 이름, 성별 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="70sp"
+                android:ems="10"
+                android:hint="이름"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_name"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/rdb_man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="남자"
+                    android:layout_marginEnd="10sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/rdb_woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여자"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="40sp"/>
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- 아이디 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp">
+
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="70sp"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_id_duplicate_check"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:background="@drawable/selector_button_main1"
+                android:text="ID 중복확인"
+                android:textColor="@color/black_2"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_id"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- 비밀번호 -->
+        <EditText
+            android:id="@+id/et_passwd"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="70sp"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_text" />
+
+        <!-- 비밀번호 확인 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp">
+
+            <EditText
+                android:id="@+id/et_passwd_check"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="70sp"
+                android:ems="10"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_check_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_passwd_check"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- 닉네임 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp">
+
+            <EditText
+                android:id="@+id/et_nickname"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="70sp"
+                android:ems="10"
+                android:hint="닉네임"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_nickname_duplicate_check"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:background="@drawable/selector_button_main1"
+                android:text="닉네임 중복확인"
+                android:textColor="@color/black_2"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingStart="5sp"
+                android:paddingEnd="5sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_nickname"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="70sp"
+            android:ems="10"
+            android:hint="이메일"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 회원가입 버튼 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:layout_marginBottom="80sp"
+                android:background="@drawable/first_button_selector"
+                android:text="회원가입"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 상단바 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:gravity="center">
+
+        <!-- 상점 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상점"
+            android:textColor="@color/black_2"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 뒤로가기 -->
+        <Button
+            android:id="@+id/back"
+            android:layout_width="22sp"
+            android:layout_height="35sp"
+            android:background="@drawable/angle_left"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/gray"
+                android:layout_marginBottom="20sp"/>
+
+        <!-- 배경화면 고르기 -->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:drawableLeft="@drawable/house_size"-->
+<!--                android:drawableTint="@color/black_2"-->
+<!--                android:layout_marginStart="25sp"-->
+<!--                android:text="  배경화면"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textColor="@color/black_2"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="5sp"/>-->
+
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="140sp">-->
+
+
+
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:background="@color/gray"/>-->
+<!--        </LinearLayout>-->
+
+        <!-- 아이템 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="20sp"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/shirt_size"
+                android:drawableTint="@color/black_2"
+                android:layout_marginStart="25sp"
+                android:text="  아이템"
+                android:textSize="25sp"
+                android:textColor="@color/black_2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5sp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="160sp">
+
+                <ImageButton
+                    android:id="@+id/ib_basic"
+                    android:layout_width="98sp"
+                    android:layout_height="98sp"
+                    android:layout_marginStart="15sp"
+                    android:background="@drawable/badge_background"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/item_basic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/ib_exercise"
+                    android:layout_width="98sp"
+                    android:layout_height="98sp"
+                    android:background="@drawable/badge_background"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/item_exercise"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/ib_training"
+                    app:layout_constraintStart_toEndOf="@+id/ib_basic"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/ib_training"
+                    android:layout_width="98sp"
+                    android:layout_height="98sp"
+                    android:layout_marginEnd="15sp"
+                    android:background="@drawable/badge_background"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/item_training"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/gray"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_mainmenu_selector_color.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/mainmenu_selector_color.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_tfe_pn_activity_camera.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_camera.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_slide_item_container.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/slide_item_container.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_school_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/school_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/menu_main_menu.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_tfe_pn_activity_posenet.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_posenet.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_main4.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main4.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_3.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_3.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_shirt.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/shirt.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_rich_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/rich_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_13.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_13.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_main4_angle_right.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/main4_angle_right.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_find_pw.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_find_pw.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_image2.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/image2.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_item_basic.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/item_basic.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_main1.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main1.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_12.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_12.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_item_training.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/item_training.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_menu.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/menu.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_angle_left.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/angle_left.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_item_exercise.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/item_exercise.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_calender.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/calender.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_ic_main3.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/ic_main3.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_change_nickname_activiy.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_change_nickname_activiy.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_pencil.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/pencil.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_image3.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/image3.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_badge_background.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/badge_background.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_main3.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main3.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_4.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_4.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_main_activity.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/main_activity.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_register_frag.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/register_frag.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_quest_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/quest_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_7.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_7.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_first_activity.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/first_activity.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_16.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_16.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_angle_right.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/angle_right.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_user.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/user.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_button_background.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_5.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_5.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_18.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_18.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_alram.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_alram.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_board.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_board.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_ic_main2.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/ic_main2.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_board_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/board_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_image4.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/image4.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_profile.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_1.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_1.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_dumbell_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/dumbell_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_shooping_badge.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/shooping_badge.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_bottom_sheet_background.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/bottom_sheet_background.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_8.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_8.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_coin.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/coin.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_main3_item.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main3_item.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_15.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_15.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_10.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_10.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_change_password_activiy.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_change_password_activiy.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_login_frag.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/login_frag.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_shirt_size.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/shirt_size.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_daycheck_button.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/daycheck_button.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_6.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_6.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_17.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_17.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_coin.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_coin.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-v24_badge_background_complete.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-v24/badge_background_complete.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_find_id.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_find_id.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_sidemenu.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_sidemenu.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_round_background.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/round_background.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_ic_main1.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/ic_main1.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_tfe_pn_activity_test.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_test.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_image1.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/image1.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_dumbell.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/dumbell.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_9.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_9.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_fragment_main2.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main2.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_14.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_14.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_first_button_selector.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/first_button_selector.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/layout_activity_calender.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_calender.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_image.JPG.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/image.JPG"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_man_2.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/man_2.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_woman_11.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/woman_11.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable_selector_button_main1.xml.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable/selector_button_main1.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-merged_res-5:/drawable-mdpi_ic_main4.png.flat",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/drawable-mdpi/ic_main4.png"
+    }
+]

@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.fitsum.Fragment.Main2Fragment">
+
+    <!-- 타이틀 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:gravity="center">
+
+        <!-- 퀘스트 -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="퀘스트"
+            android:textColor="@color/black_2"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 캘린더 -->
+        <Button
+            android:id="@+id/calender"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:background="@drawable/calender"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- 라인 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4sp"
+        android:background="@color/color_text"/>
+
+    <!-- 주간, 일일 미션 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 주간미션 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/daycheck"
+                android:layout_width="330sp"
+                android:layout_height="50sp"
+                android:text="출석 체크"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/daycheck_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- 일일미션 -->
+        <LinearLayout
+            android:id="@+id/day_quest"
+            android:layout_width="330sp"
+            android:layout_height="250sp"
+            android:background="@drawable/round_background"
+            android:orientation="vertical"
+            android:layout_marginTop="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="18sp"
+                android:paddingTop="15sp"
+                android:text="일일 미션"
+                android:textColor="@color/black_2"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day_quest1"
+                android:layout_width="match_parent"
+                android:layout_height="75sp"
+                android:text="미션 넣기"
+                android:textSize="17sp"
+                android:textColor="@color/black_2"
+                android:textStyle="bold"
+                android:background="@drawable/button_background"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="10sp"
+                android:padding="15sp"/>
+
+            <TextView
+                android:id="@+id/day_quest2"
+                android:layout_width="match_parent"
+                android:layout_height="75sp"
+                android:text="미션 넣기"
+                android:textSize="17sp"
+                android:textColor="@color/black_2"
+                android:textStyle="bold"
+                android:background="@drawable/button_background"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="10sp"
+                android:padding="15sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="※ 코인은 미션 달성시 자동으로 지급됩니다."
+            android:textSize="17sp"
+            android:layout_marginTop="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day_quest" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

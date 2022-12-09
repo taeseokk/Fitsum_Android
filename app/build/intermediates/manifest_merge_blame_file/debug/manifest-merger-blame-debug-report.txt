@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.miguelrochefort.fitnesscamera"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+10
+11    <!-- 카메라 -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:7:5-65
+12-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:7:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:8:5-60
+14-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:8:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:9:19-67
+16
+17    <!-- 서버와 통신을 하기 위해 인터넷 권한을 얻는 것 -->
+18    <uses-permission android:name="android.permission.INTERNET" /> <!-- 네트워크가 연결되었는지 확인할 수 있는 것 -->
+18-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:14:5-76
+20-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:14:22-73
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:15:5-80
+21-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:16:5-80
+22-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:16:22-78
+23
+24    <!--
+25     usesCleartextTraffic : http로 시작하는 사이트에 접근하기 위해서 적어줌
+26     android는 default로 http 접근을 허용하지 않음. https를 지원하는 사이트와 통신할거면 안적어도됨.
+27    -->
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:20:5-79
+28-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:20:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:21:5-81
+29-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:21:22-78
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.miguelrochefort.fitnesscamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.miguelrochefort.fitnesscamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:23:5-82:19
+38        android:allowBackup="true"
+38-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:25:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:26:9-43
+43        android:label="FitSum"
+43-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:27:9-31
+44        android:requestLegacyExternalStorage="true"
+44-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:24:9-52
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:28:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:29:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+48-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:30:9-76
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:32:9-44
+50        <activity
+50-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:35:9-36:39
+51            android:name="org.fitsum.ChangePasswordActivity"
+51-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:35:19-67
+52            android:exported="false" />
+52-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:36:13-37
+53        <activity
+53-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:37:9-38:39
+54            android:name="org.fitsum.ChangeNicknameActivity"
+54-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:37:19-67
+55            android:exported="false" />
+55-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:38:13-37
+56        <activity
+56-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:39:9-41:40
+57            android:name="org.fitsum.FirstPart.FindIdActivity"
+57-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:40:13-63
+58            android:exported="false" />
+58-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:41:13-37
+59        <activity
+59-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:42:9-44:40
+60            android:name="org.fitsum.FirstPart.FindPwActivity"
+60-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:43:13-63
+61            android:exported="false" />
+61-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:44:13-37
+62        <activity
+62-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:45:9-47:40
+63            android:name="org.fitsum.SideMenuActivity"
+63-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:46:13-55
+64            android:exported="false" />
+64-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:47:13-37
+65        <activity
+65-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:48:9-50:40
+66            android:name="org.fitsum.BoardActivity"
+66-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:49:13-52
+67            android:exported="false" />
+67-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:50:13-37
+68        <activity
+68-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:51:9-53:40
+69            android:name="org.fitsum.CoinActivity"
+69-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:52:13-51
+70            android:exported="false" />
+70-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:53:13-37
+71        <activity
+71-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:54:9-63:20
+72            android:name="org.fitsum.MainActivity"
+72-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:55:13-51
+73            android:exported="true" >
+73-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:56:13-36
+74
+75            <!-- <intent-filter> -->
+76            <!-- <action android:name="android.intent.action.MAIN" /> -->
+77
+78
+79            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+80            <!-- </intent-filter> -->
+81
+82        </activity>
+83        <activity
+83-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:64:9-72:20
+84            android:name="org.fitsum.FirstPart.FirstActivity"
+84-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:65:13-62
+85            android:exported="true" >
+85-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:66:13-36
+86            <intent-filter>
+86-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:67:13-71:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:68:17-69
+87-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:68:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:70:17-77
+89-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:70:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:73:9-75:39
+93            android:name="org.fitsum.posenet.CameraActivity"
+93-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:74:13-61
+94            android:exported="true" />
+94-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:75:13-36
+95        <activity
+95-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:76:9-78:39
+96            android:name="org.fitsum.posenet.TestActivity"
+96-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:77:13-59
+97            android:exported="true" />
+97-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:78:13-36
+98        <activity
+98-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:79:9-81:39
+99            android:name="org.fitsum.CalenderActivity"
+99-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:80:13-55
+100            android:exported="true" />
+100-->C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:81:13-36
+101
+102        <service
+102-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+106            <meta-data
+106-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+107                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+107-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+109        </service>
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+118            android:authorities="com.miguelrochefort.fitnesscamera.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+126
+127        <uses-library
+127-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+128            android:name="androidx.window.extensions"
+128-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+129            android:required="false" />
+129-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+130        <uses-library
+130-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+131            android:name="androidx.window.sidecar"
+131-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+132            android:required="false" />
+132-->[androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+133
+134        <provider
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+135            android:name="androidx.startup.InitializationProvider"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+136            android:authorities="com.miguelrochefort.fitnesscamera.androidx-startup"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+137            android:exported="false" >
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+138            <meta-data
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+140                android:value="androidx.startup" />
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+141            <meta-data
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+143                android:value="androidx.startup" />
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+144        </provider>
+145    </application>
+146
+147</manifest>

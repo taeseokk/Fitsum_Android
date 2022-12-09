@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.fitsum.Fragment.Main1Fragment"
+    android:orientation="vertical">
+
+    <!-- 타이틀 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <!-- 코인 -->
+        <ImageButton
+            android:id="@+id/coin_image"
+            android:layout_width="38sp"
+            android:layout_height="36sp"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/coin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/coin_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/coin_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitSum"
+            android:textColor="@color/black"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ib_exercise"
+            android:layout_width="38sp"
+            android:layout_height="38sp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dumbell"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 알림 -->
+<!--        <ImageButton-->
+<!--            android:id="@+id/alram"-->
+<!--            android:layout_width="32sp"-->
+<!--            android:layout_height="35sp"-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:layout_marginEnd="15sp"-->
+<!--            android:background="@drawable/bell"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- 캐릭터 이미지  -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/character"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50sp"
+            android:scaleType="centerCrop" />
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

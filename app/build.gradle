@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+  compileSdkVersion 33
+  viewBinding {
+    enabled = true
+  }
+  defaultConfig {
+    applicationId "com.miguelrochefort.fitnesscamera"
+    minSdkVersion 26
+    targetSdkVersion 33
+    versionCode 1
+    versionName "1.0"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  packagingOptions{
+    exclude 'META-INF/DEPENDENCIES'
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
+  }
+
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation project(":posenet")
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+  implementation 'androidx.appcompat:appcompat:1.5.1'
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+  implementation 'org.tensorflow:tensorflow-lite:2.9.0'
+
+  implementation 'com.github.smarteist:autoimageslider:1.4.0'
+  implementation 'com.android.volley:volley:1.2.1'
+  implementation 'com.google.ar.sceneform:filament-android:1.17.1'
+  implementation 'com.google.android.material:material:1.7.0'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.2'
+
+    testImplementation 'junit:junit:4.13.2'
+  androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.4'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+  //ViewPager2
+  implementation 'androidx.viewpager2:viewpager2:1.0.0'
+  //RoundedImageView
+  implementation 'com.makeramen:roundedimageview:2.3.0'
+
+  implementation 'androidx.core:core-ktx:1.9.0'
+  implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+  implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+  implementation 'androidx.appcompat:appcompat-resources:1.5.1'
+
+  /*안드로이드와 통신할 수 있는 버전 가져오기*/
+  implementation group: 'org.apache.httpcomponents', name: 'httpclient-android', version: '4.3.5.1'
+  implementation('org.apache.httpcomponents:httpmime:4.5.13') {
+    exclude module: "httpclient"
+  }
+
+  implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+  implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
+
+
+  implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '5.0.0-alpha.10'
+  implementation group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '5.0.0-alpha.10'
+  implementation group: 'com.squareup.okhttp3', name: 'okhttp-bom', version: '5.0.0-alpha.10', ext: 'pom'
+
+  implementation 'com.google.firebase:firebase-database:20.1.0'
+
+  implementation 'androidx.recyclerview:recyclerview:1.2.1'     //리사이클러뷰
+  implementation 'androidx.cardview:cardview:1.0.0'             //카드뷰
+
+  //Retrofit 라이브러리
+  implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+  //Gson 변환기 라이브러리
+  implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+  //Scalars  변환기 라이브러리
+  implementation 'com.squareup.retrofit2:converter-scalars:2.6.4'
+  implementation 'com.google.code.gson:gson:2.8.9'
+
+
+
+
+
+}

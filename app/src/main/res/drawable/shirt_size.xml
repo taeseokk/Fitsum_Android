@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:width="45sp"
+        android:height="35sp"
+        android:drawable="@drawable/shirt"/>
+</layer-list>

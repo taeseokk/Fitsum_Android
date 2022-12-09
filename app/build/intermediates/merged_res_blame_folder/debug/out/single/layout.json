@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/tfe_pn_activity_camera.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_camera.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_main2.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main2.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_find_id.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_find_id.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/main_activity.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/main_activity.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_change_password_activiy.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_change_password_activiy.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/tfe_pn_activity_test.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_test.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_find_pw.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_find_pw.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_profile.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_alram.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_alram.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_main1.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main1.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_board.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_board.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_main4.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main4.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_calender.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_calender.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/tfe_pn_activity_posenet.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/tfe_pn_activity_posenet.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/slide_item_container.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/slide_item_container.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/first_activity.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/first_activity.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/register_frag.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/register_frag.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_main3_item.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main3_item.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/login_frag.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/login_frag.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_coin.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_coin.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_change_nickname_activiy.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_change_nickname_activiy.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/fragment_main3.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/fragment_main3.xml"
+    },
+    {
+        "merged": "com.miguelrochefort.fitnesscamera.app-mergeDebugResources-4:/layout/activity_sidemenu.xml",
+        "source": "com.miguelrochefort.fitnesscamera.app-main-7:/layout/activity_sidemenu.xml"
+    }
+]

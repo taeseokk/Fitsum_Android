@@ -1,0 +1,573 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6ac03ffb1b5f31e28de968af287013f2\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [:posenet] C:\Users\dydgh\AndroidStudioProjects\android-main\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\dcacece75f063e2aab4e7ba83a6fc787\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\c7c7b4a9a5708a47063e13fcc609d0ac\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d13dcec72fe873c33a35d1776a76040a\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\45f15ea3b2ac2cb1ee37fd18d1005cae\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\51c532a1c6c5b5458c408daa235c2648\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ca011bc05e1a8533651e16d939079c4\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0d47482e7baf9a3b1ae922696b924aa0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\023bb21696f920e4d3548575b0169b30\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fbb9931eefb63ffae1a08c195b5b95b9\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2b3046a3d2df8c0b7a985e054ee0c8c7\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bd544d459ca94906a922c3bc31dc15a8\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\81fa741112d5796b4e2011bbc9eb26e1\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\e721b75e304b3c519c840d3e8c7d9550\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\92451a6a2d82931e342362a846071bf9\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d4dd9a1dde1c0c084249d19bcf0e93c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f22afdf0ece1fd6cc88cf426037f1324\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\08922b942ef22d2ba7d45bfe44ed43b6\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\83ec692089f70e94ba7e197a6478c58c\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\20716ae7b2204de2a6da665226e3f29f\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2aa72450cfab3dd4f94dad4b0bbcf117\transformed\jetified-activity-ktx-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\90f73aa435439a947680ce6c49430a4c\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\879cf3f2e7955c19306a6faa655fe7b9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ee98a2485977adc81668757c1f284d82\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4f7f08e81e0af6b9ff3e6e4520626bf7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2c0b2d5d8dbc60754a8d826fd20f3712\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5357d2dc42198cbb15def98e3a96ea3c\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\814e87f45ebbf8309f3f2f532d8d088c\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa124d99599d1cccb45debcaa69502a9\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0c4b845f973ae1bd9770efc406623330\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\33ab798c0455d637a326168d70b61c25\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8a4d4239f9f67165a8118da5d5b9b333\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\051cddfeab83290a48bf3b4e898ae4fd\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4858c5faf7b57c072acb1db08d86ec0f\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\94bbddadb83cf57dd9e24df53d1d790a\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\04e40f26a05fd1ac17f587a6b0c496b9\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4b68142f043afca3520fe0b64532efba\transformed\jetified-roundedimageview-2.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ea49b0dd9f6ac2d7fe3e7f2597256a54\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1654fa2d69f8cc4bbf4a292590fb1754\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2042375f990665b2134d9989460ce979\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa308fb76434adcba9062d19ad3e1b80\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\135445c0240cf35a4efa7184a8b90405\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5693d3c38507116627bf73571bcc95f0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d4ba3a79930d10c3b415260684485a70\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1a8e6e06f49709a5bf8e9064dc9a7096\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\05a86e6ad3b4debd60874eadffc5a619\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\034d7e6905840c00f1a37afd5a239b14\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a414e0ca8506ead59408e3dc4cd14d93\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d6499f7e940cfd50995e5353e919c40b\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0aa0a58a1d2de7f6579b7c855b89a5fb\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3f39aad2aac1af9eeef64f444ffbd9b9\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1c740666434ffc865ad1ab077c06c024\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bcc64526d6be63c02850484b2bfd6b7e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\99502021bb4a2c39d2cde791e389ce62\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1888a5fc942b66a8283a1ed66a5aaab8\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7f7f85418480916813c1c859bc51c3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3a8eda024a75ca277699014f6afb06ac\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a7b5ea62b488032c4a8da270ea44ecf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0134d2c2e42707f7a55f43b9c2d38160\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\563f36837ff7ff9a29d2451d897e86c5\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ff4431d76b9b865e72f8e7023782749\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\241449661f7dce80c13fc10750356d5f\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\054fc3c820918a08a7ca4b2c48a56a1f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d3ae7badd4b2594430e43c9e168cef2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\665850ea4b4ce868b5eddfb0dca3257f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a1c013aaa62737d9f5bf9585498f6ba4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\12c66f307af5cc12cadbd2e089db13e9\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bb27af7f799c95cff25ed80554c99305\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\756be893be12fd37ea54a2e819f7a834\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+	package
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:4:5-48
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:7:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:8:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:9:19-67
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:21:22-78
+application
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:23:5-82:19
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d13dcec72fe873c33a35d1776a76040a\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d13dcec72fe873c33a35d1776a76040a\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\45f15ea3b2ac2cb1ee37fd18d1005cae\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\45f15ea3b2ac2cb1ee37fd18d1005cae\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2b3046a3d2df8c0b7a985e054ee0c8c7\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2b3046a3d2df8c0b7a985e054ee0c8c7\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\81fa741112d5796b4e2011bbc9eb26e1\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\81fa741112d5796b4e2011bbc9eb26e1\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\e721b75e304b3c519c840d3e8c7d9550\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\e721b75e304b3c519c840d3e8c7d9550\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4858c5faf7b57c072acb1db08d86ec0f\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4858c5faf7b57c072acb1db08d86ec0f\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7f7f85418480916813c1c859bc51c3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7f7f85418480916813c1c859bc51c3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bb27af7f799c95cff25ed80554c99305\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bb27af7f799c95cff25ed80554c99305\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\756be893be12fd37ea54a2e819f7a834\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\756be893be12fd37ea54a2e819f7a834\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:10:5-20
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:24:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:27:9-31
+		REJECTED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:28:9-54
+	tools:targetApi
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:33:9-29
+	android:icon
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:30:9-76
+	tools:replace
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:31:9-38
+	android:usesCleartextTraffic
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:32:9-44
+activity#org.fitsum.ChangePasswordActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:35:9-36:39
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:35:19-67
+activity#org.fitsum.ChangeNicknameActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:37:9-38:39
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:37:19-67
+activity#org.fitsum.FirstPart.FindIdActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:40:13-63
+activity#org.fitsum.FirstPart.FindPwActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:43:13-63
+activity#org.fitsum.SideMenuActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:46:13-55
+activity#org.fitsum.BoardActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:49:13-52
+activity#org.fitsum.CoinActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:52:13-51
+activity#org.fitsum.MainActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:54:9-63:20
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:55:13-51
+activity#org.fitsum.FirstPart.FirstActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:64:9-72:20
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:65:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:70:27-74
+activity#org.fitsum.posenet.CameraActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:73:9-75:39
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:74:13-61
+activity#org.fitsum.posenet.TestActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:76:9-78:39
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:77:13-59
+activity#org.fitsum.CalenderActivity
+ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:79:9-81:39
+	android:exported
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml:80:13-55
+uses-sdk
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6ac03ffb1b5f31e28de968af287013f2\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6ac03ffb1b5f31e28de968af287013f2\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [:posenet] C:\Users\dydgh\AndroidStudioProjects\android-main\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:posenet] C:\Users\dydgh\AndroidStudioProjects\android-main\posenet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\dcacece75f063e2aab4e7ba83a6fc787\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\dcacece75f063e2aab4e7ba83a6fc787\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\c7c7b4a9a5708a47063e13fcc609d0ac\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\c7c7b4a9a5708a47063e13fcc609d0ac\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d13dcec72fe873c33a35d1776a76040a\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d13dcec72fe873c33a35d1776a76040a\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\45f15ea3b2ac2cb1ee37fd18d1005cae\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\45f15ea3b2ac2cb1ee37fd18d1005cae\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\51c532a1c6c5b5458c408daa235c2648\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\51c532a1c6c5b5458c408daa235c2648\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ca011bc05e1a8533651e16d939079c4\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ca011bc05e1a8533651e16d939079c4\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0d47482e7baf9a3b1ae922696b924aa0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0d47482e7baf9a3b1ae922696b924aa0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\023bb21696f920e4d3548575b0169b30\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\023bb21696f920e4d3548575b0169b30\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fbb9931eefb63ffae1a08c195b5b95b9\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fbb9931eefb63ffae1a08c195b5b95b9\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2b3046a3d2df8c0b7a985e054ee0c8c7\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2b3046a3d2df8c0b7a985e054ee0c8c7\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bd544d459ca94906a922c3bc31dc15a8\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bd544d459ca94906a922c3bc31dc15a8\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\81fa741112d5796b4e2011bbc9eb26e1\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\81fa741112d5796b4e2011bbc9eb26e1\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\e721b75e304b3c519c840d3e8c7d9550\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\e721b75e304b3c519c840d3e8c7d9550\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\92451a6a2d82931e342362a846071bf9\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\92451a6a2d82931e342362a846071bf9\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d4dd9a1dde1c0c084249d19bcf0e93c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d4dd9a1dde1c0c084249d19bcf0e93c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f22afdf0ece1fd6cc88cf426037f1324\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f22afdf0ece1fd6cc88cf426037f1324\transformed\jetified-fragment-ktx-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\08922b942ef22d2ba7d45bfe44ed43b6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\08922b942ef22d2ba7d45bfe44ed43b6\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\83ec692089f70e94ba7e197a6478c58c\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\83ec692089f70e94ba7e197a6478c58c\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\20716ae7b2204de2a6da665226e3f29f\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\20716ae7b2204de2a6da665226e3f29f\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2aa72450cfab3dd4f94dad4b0bbcf117\transformed\jetified-activity-ktx-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2aa72450cfab3dd4f94dad4b0bbcf117\transformed\jetified-activity-ktx-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\90f73aa435439a947680ce6c49430a4c\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\90f73aa435439a947680ce6c49430a4c\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\879cf3f2e7955c19306a6faa655fe7b9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\879cf3f2e7955c19306a6faa655fe7b9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ee98a2485977adc81668757c1f284d82\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ee98a2485977adc81668757c1f284d82\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4f7f08e81e0af6b9ff3e6e4520626bf7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4f7f08e81e0af6b9ff3e6e4520626bf7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2c0b2d5d8dbc60754a8d826fd20f3712\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2c0b2d5d8dbc60754a8d826fd20f3712\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5357d2dc42198cbb15def98e3a96ea3c\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5357d2dc42198cbb15def98e3a96ea3c\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\814e87f45ebbf8309f3f2f532d8d088c\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\814e87f45ebbf8309f3f2f532d8d088c\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa124d99599d1cccb45debcaa69502a9\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa124d99599d1cccb45debcaa69502a9\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0c4b845f973ae1bd9770efc406623330\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0c4b845f973ae1bd9770efc406623330\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\33ab798c0455d637a326168d70b61c25\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\33ab798c0455d637a326168d70b61c25\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8a4d4239f9f67165a8118da5d5b9b333\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8a4d4239f9f67165a8118da5d5b9b333\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\051cddfeab83290a48bf3b4e898ae4fd\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\051cddfeab83290a48bf3b4e898ae4fd\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4858c5faf7b57c072acb1db08d86ec0f\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4858c5faf7b57c072acb1db08d86ec0f\transformed\jetified-tensorflow-lite-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\019f6b8081cfafa5ee458b298c57000b\transformed\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\94bbddadb83cf57dd9e24df53d1d790a\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\94bbddadb83cf57dd9e24df53d1d790a\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\04e40f26a05fd1ac17f587a6b0c496b9\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\04e40f26a05fd1ac17f587a6b0c496b9\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4b68142f043afca3520fe0b64532efba\transformed\jetified-roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\4b68142f043afca3520fe0b64532efba\transformed\jetified-roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ea49b0dd9f6ac2d7fe3e7f2597256a54\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ea49b0dd9f6ac2d7fe3e7f2597256a54\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1654fa2d69f8cc4bbf4a292590fb1754\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1654fa2d69f8cc4bbf4a292590fb1754\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2042375f990665b2134d9989460ce979\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2042375f990665b2134d9989460ce979\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa308fb76434adcba9062d19ad3e1b80\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fa308fb76434adcba9062d19ad3e1b80\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\135445c0240cf35a4efa7184a8b90405\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\135445c0240cf35a4efa7184a8b90405\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5693d3c38507116627bf73571bcc95f0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\5693d3c38507116627bf73571bcc95f0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d4ba3a79930d10c3b415260684485a70\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d4ba3a79930d10c3b415260684485a70\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1a8e6e06f49709a5bf8e9064dc9a7096\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1a8e6e06f49709a5bf8e9064dc9a7096\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\05a86e6ad3b4debd60874eadffc5a619\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\05a86e6ad3b4debd60874eadffc5a619\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\034d7e6905840c00f1a37afd5a239b14\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\034d7e6905840c00f1a37afd5a239b14\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a414e0ca8506ead59408e3dc4cd14d93\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a414e0ca8506ead59408e3dc4cd14d93\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d6499f7e940cfd50995e5353e919c40b\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\d6499f7e940cfd50995e5353e919c40b\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0aa0a58a1d2de7f6579b7c855b89a5fb\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0aa0a58a1d2de7f6579b7c855b89a5fb\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3f39aad2aac1af9eeef64f444ffbd9b9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3f39aad2aac1af9eeef64f444ffbd9b9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1c740666434ffc865ad1ab077c06c024\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1c740666434ffc865ad1ab077c06c024\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bcc64526d6be63c02850484b2bfd6b7e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bcc64526d6be63c02850484b2bfd6b7e\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\99502021bb4a2c39d2cde791e389ce62\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\99502021bb4a2c39d2cde791e389ce62\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1888a5fc942b66a8283a1ed66a5aaab8\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1888a5fc942b66a8283a1ed66a5aaab8\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7f7f85418480916813c1c859bc51c3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7f7f85418480916813c1c859bc51c3f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3a8eda024a75ca277699014f6afb06ac\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\3a8eda024a75ca277699014f6afb06ac\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a7b5ea62b488032c4a8da270ea44ecf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a7b5ea62b488032c4a8da270ea44ecf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0134d2c2e42707f7a55f43b9c2d38160\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\0134d2c2e42707f7a55f43b9c2d38160\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\563f36837ff7ff9a29d2451d897e86c5\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\563f36837ff7ff9a29d2451d897e86c5\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ff4431d76b9b865e72f8e7023782749\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\1ff4431d76b9b865e72f8e7023782749\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\241449661f7dce80c13fc10750356d5f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\241449661f7dce80c13fc10750356d5f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\054fc3c820918a08a7ca4b2c48a56a1f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\054fc3c820918a08a7ca4b2c48a56a1f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d3ae7badd4b2594430e43c9e168cef2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2d3ae7badd4b2594430e43c9e168cef2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\665850ea4b4ce868b5eddfb0dca3257f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\665850ea4b4ce868b5eddfb0dca3257f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a1c013aaa62737d9f5bf9585498f6ba4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\a1c013aaa62737d9f5bf9585498f6ba4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\12c66f307af5cc12cadbd2e089db13e9\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\12c66f307af5cc12cadbd2e089db13e9\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bb27af7f799c95cff25ed80554c99305\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\bb27af7f799c95cff25ed80554c99305\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\756be893be12fd37ea54a2e819f7a834\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\756be893be12fd37ea54a2e819f7a834\transformed\jetified-tensorflow-lite-api-2.9.0\AndroidManifest.xml:7:5-8:41
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dydgh\AndroidStudioProjects\android-main\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\2a9448e1b449f5de603ac7f5ba11c5f6\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\8bd310f4c2ddba0ce66ea9468f68c4da\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\6a672f8fe5ac5b21d0b2e8de5b0b6b97\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ea8e110fee15591ee3d2153e50137\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\fec698953e0c0ebc64d3f73a8efa5fa1\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\f8153a27b137b0389c93df2b4d9e096e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\ac7ec4c101c632d1bda70810b355a611\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.miguelrochefort.fitnesscamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.miguelrochefort.fitnesscamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\7b5dfb4408a202d8804a5a831f3c7a74\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dydgh\AndroidStudioProjects\fitsum\caches\transforms-3\79407e5a0839a94470762f954d9b865e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

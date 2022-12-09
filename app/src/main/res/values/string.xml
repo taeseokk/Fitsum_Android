@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BERMUDA</string>
+    <string name="로그인">로그인</string>
+    <string name="회원가입">회원가입</string>
+
+    <string name="tfe_pn_request_permission">tfe_pn_request_permission</string>
+    <string name="tfe_pn_camera_error">tfe_pn_camera_error</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="button_background">#A9ABB1</color>
+    <!--버튼 배경색상-->
+  <color name="background">#E6E6E6</color>            <!-- 기본배경 (거의 힌색)-->
+    <!--이건 뭐더라-->
+  <color name="color_text">#656565</color>            <!-- text 컬러 -->
+
+    <!--당연한 컬러 색상들-->
+    <!-- 카카오 색상-->
+  <color name="black">#FF000000</color>
+  <color name="black_2">#3C3C3C</color>
+  <color name="gray">#787878</color>
+  <color name="white">#FFFFFF</color>
+    <!--조금 진한 파랑?-->
+
+
+</resources>

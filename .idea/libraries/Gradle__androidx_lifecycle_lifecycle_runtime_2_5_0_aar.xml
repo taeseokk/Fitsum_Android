@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../fitsum/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../fitsum/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../fitsum/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cff3b9466eb2ea21e02a6d22ad4f99e5/transformed/lifecycle-runtime-2.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../fitsum/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.5.0/d255b447102736e536a28b97671c6a736c801b7/lifecycle-runtime-2.5.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.5.0/d255b447102736e536a28b97671c6a736c801b7/lifecycle-runtime-2.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
